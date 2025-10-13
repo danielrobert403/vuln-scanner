@@ -1,0 +1,14 @@
+Starting basic vuln scanner...
+/home/robert/projects/basic-vuln-scanner/vuln_scanner.py:127: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  results = {"target": target, "ip": target_ip, "scanned_at": datetime.utcnow().isoformat()+"Z", "ports": [], "http": {}}
+
+Scanning target: 127.0.0.1 (127.0.0.1)
+----------------------------------------
+[CLOSED] Port    80
+[OPEN] Port  8080   RTT=0.0s   Banner: N/A
+  - HTTP open — consider redirecting to HTTPS and check headers.
+----------------------------------------
+No HTTP(S) service detected on common ports.
+
+Scan finished in 1.01s
+Results written to results.json

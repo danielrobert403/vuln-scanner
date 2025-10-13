@@ -1,0 +1,34 @@
+{
+  "target": "127.0.0.1",
+  "ip": "127.0.0.1",
+  "scanned_at": "2025-10-13T01:08:41.715896Z",
+  "ports": [
+    {
+      "port": 80,
+      "open": false,
+      "banner": null,
+      "rtt": null,
+      "hints": [
+        "HTTP open \u2014 consider redirecting to HTTPS and check headers."
+      ]
+    },
+    {
+      "port": 8080,
+      "open": true,
+      "banner": null,
+      "rtt": 0.0,
+      "hints": [
+        "HTTP open \u2014 consider redirecting to HTTPS and check headers."
+      ]
+    }
+  ],
+  "http": {
+    "reachable": false,
+    "url": null,
+    "headers": null,
+    "hints": [
+      "No HTTP(S) service detected or blocked"
+    ]
+  },
+  "summary_hints": []
+}
