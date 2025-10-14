@@ -18,3 +18,4 @@ python3 vuln_scanner.py --target example.com --output results.json
 # vuln-scanner
 # vuln-scanner
 # vuln-scanner
+# phishing-awarness-simulator
